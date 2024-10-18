@@ -45,7 +45,7 @@
                 <div class="md:flex-col md:flex-grow md:flex md:justify-center">
                     <img src="assets/moodup-logo-color.png" class="w-40 flex hidden start md:block" alt="">
                     <div class="mt-4">
-                        <div class="flex justify-center h-5 w-2/5 mx-auto">
+                        <div class="flex justify-center h-5 w-2/5 mx-auto md:mx-0 md:ml-14">
                             <div id="indicator1" class="bg-gray-400 h-full flex-grow mx-1 rounded-full"></div>
                             <div id="indicator2" class="bg-gray-400 h-full flex-grow mx-1 rounded-full"></div>
                             <div id="indicator3" class="bg-gray-400 h-full flex-grow mx-1 rounded-full"></div>
