@@ -81,6 +81,28 @@ Jika ingin menjalankan secara lokal, berikut langkah-langkahnya:
 8. **Akses Aplikasi:**
     - Buka browser dan akses `http://localhost:8000` untuk melihat aplikasi MoodUp.
 
+## Alur Website MoodUp:
+
+1. **Landing Page dan Perkenalan**
+
+    Pengguna melihat deskripsi singkat tentang kesehatan mental dan mengklik tombol "Mulai Sekarang" untuk memulai quiz deteksi gejala depresi.
+
+2. **Pengisian Quiz Gejala Depresi**
+
+    Quiz terdiri dari pertanyaan standar (misalnya SRQ-20 WHO) dengan format pilihan ganda.
+
+3. **Gamifikasi di Sela Quiz**
+
+    Mini-game fokus singkat muncul di sela pertanyaan untuk memberikan jeda dan mengurangi stres.
+
+4. **Analisis oleh Algoritma SVM**
+
+    Algoritma SVM memproses jawaban dan memberikan hasil klasifikasi gejala depresi.
+
+5. **Hasil dan Rekomendasi Tindakan**
+
+    Hasil disajikan dengan grafik atau indikator, disertai rekomendasi tindakan seperti mindfulness atau relaksasi.
+
 ## Penjelasan Setiap File
 
 1. **index.html**
